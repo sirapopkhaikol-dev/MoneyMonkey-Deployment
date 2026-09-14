@@ -75,6 +75,10 @@ services:
         NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
         NEXT_PUBLIC_GOOGLE_CLIENT_ID: ${NEXT_PUBLIC_GOOGLE_CLIENT_ID}
 
+  cart_order_web:
+    build:
+      context: ../cart_order_web
+
   nginx:
     image: nginx:alpine
 
