@@ -79,6 +79,10 @@ services:
     build:
       context: ../cart_order_web
 
+  port_web:
+    build:
+      context: ../port-web
+
   nginx:
     image: nginx:alpine
 
